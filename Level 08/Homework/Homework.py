@@ -21,28 +21,13 @@ for i in range(11):
 #მომხარებელს შემოატანინეთ რიცხვი და შეინახეთ ცვლადში, შემდეგ კი 0-დან 
 #შემოტანილი რიცხვის ჩათვლით შეამოწმეთ, თუ ლუწია დაბეჭდეთ რიცხვი is Even, სხვა 
 #შემთხვევაში რიცხვი is Odd;(მაგალითად 4, ლუწია ამიტომაც დაბეჭდავთ "4 is Even")
-num=(input("enter the number:"))
-if num=="1":
-    print("1 is odd")
-elif num=="3":
-     print("3 is odd")
-elif num=="5":
-     print("5 is odd")
-elif num=="7":
-     print("7 is odd")
-elif num=="9":
-     print("9 is odd")
+number=int(input("please add number:"))
+for num in range(0,number+1):
+    if num % 2==0:
+        print(str(num)+ "is even")
+else:
+    print(str(num) + "is odd")
 
-if  num=="2":
-    print("4 is even")
-elif num=="4":
-     print("4 is even")
-elif num=="6":
-      print("6 is even")
-elif num=="8":
-      print("8 is even")
-elif num=="10":
-     print("10 is even")
 
 
 
